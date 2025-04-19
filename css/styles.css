@@ -30,9 +30,11 @@
 
 .recipes-container {
     outline: 2px solid red;
-    width: 280px;
-    height: 220px;
+    width: auto;
+    height: auto;
     text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
 .recipes-container ul {
@@ -44,4 +46,24 @@
     padding-left: 1em;
     text-indent: -1em;
 }
+
+.contacts-container {
+    outline: 2px solid red;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.contacts-container ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.contacts-container li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
 
