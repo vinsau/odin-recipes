@@ -73,6 +73,22 @@
 .site-description {
     outline: 2px solid red;
     margin-left: 20px;
+    padding: 20px;
 }
 
+.site-description p {
+    margin-top: 20px;
+}
 
+.main-content-display {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    border: 3px solid black;
+}
+
+.title-bar h1{
+    display: inline;
+}
