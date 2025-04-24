@@ -37,6 +37,15 @@ body {
     flex-direction: column;
 }
 
+a {
+    text-decoration: none;
+    color: var(--base-font-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 /* Header */
 
 header {
@@ -98,11 +107,15 @@ main {
     font-weight: bold;
 }
 
-.card > button {
+.card > .visit-btn {
     margin-top: auto;
-    padding: 5px;
+    padding: 10px;
     font-weight: bold;
     font-size: 15px;
+    background-color: var(--base-bg-color2);
+    color: #000000;
+    align-self: center;
+    border-radius: 10px;
 }
 
 
