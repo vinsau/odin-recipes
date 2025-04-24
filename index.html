@@ -5,38 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="title-bar">
-        <h1>Odin Recipes</h1>
+    <header class="web-title">
+        <h1>ODIN Recipes</h1>
+        <p>Just a simple static website by Gauciv</p>   
     </header>
-    <main class="main-container">
-        <div class="side-bar-container">
-            <section class="recipes-container">
-                <h2>Recipes:</h2>
-                <br>
-                <ul>
-                    <li>
-                        <p><a href="./recipes/pork-adobo.html">Pork Adobo</a></p>
-                    </li>
-                    <li>
-                        <p><a href="./recipes/kare-kare.html">Kare-Kare</a></p>
-                    </li>
-                </ul>
-            </section>
-            <section class="contacts-container">
-                <h2>Contact Us!</h2>
-                <br>
-                <ul>
-                    <li><b>Email</b>: thisemail@example.com</li>
-                    <li><b>Phone #:</b>: 63+ 951 532 1231</li>
-                    <li><b>Hotline #:</b>: 421 2943</li>
-                </ul>
-            </section>
+    <main>
+        <div class="recipes-header">
+            <h2>LIST OF RECIPES:</h2>
+            <hr>
         </div>
-        <div class="site-description">
-            <img class="main-content-display" src="https://image.shutterstock.com/image-vector/black-white-vector-seafood-set-260nw-2556496209.jpg" alt="Authentic cuisine">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tenetur exercitationem deleniti, accusantium sed minus dolor vero quasi vitae eligendi accusamus quas aliquam ipsam sequi. Necessitatibus neque consectetur quis incidunt.</p>
+        <div class="recipe-items">
+            <section class="card pork-adobo">
+                <h3>Pork Adobo</h3>
+                <img src="./assets/pork-adobo-1-jpg-1654712703.avif" alt="Pork adobo in a plate">
+                <p> is a dish that is usually made with meat (chicken, pork, or beef) marinated in vinegar, soy sauce, garlic, and other spices.</p>
+                <button class="visit-btn pork-adobo-btn">View Full Recipe</button>
+            </section>
+            <section class="card kare-kare">
+                <h3>Kare-kare</h3>
+                <img src="./assets/kare-kare-with-oxtail-1.jpg" alt="Kare-kare in a plate">
+                <p> is a classic Filipino stew, characterized by its rich, thick, and savory peanut sauce </p>
+                <button class="visit-btn kare-kare-btn">View Full Recipe</button>
+            </section>
+            <section class="card dinuguan">
+                <h3>Dinuguan</h3>
+                <img src="./assets/dinuguan.webp" alt="Dinuguan in a plate">
+                <p> is a popular Filipino pork blood stew, often called "chocolate meat".</p>
+                <button class="visit-btn dinuguan-btn">View Full Recipe</button>
+            </section>
         </div>
     </main>
 </body>
