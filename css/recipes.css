@@ -1,0 +1,129 @@
+/* Default Values */
+
+:root {
+    --base-font-color: #FFFFFF;
+    --base-bg-color1: #000000;
+    --base-bg-color2: #B0B0B0;
+    --base-bg-color3: #7D7D7D;
+    --base-bg-color4: #4D4D4D;
+}
+
+/* Type declarations */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+}
+
+img {
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    border: 2px solid var(--base-bg-color2)
+}
+
+body {
+    background-color: var(--base-bg-color1  );
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--base-font-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+.recipe-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    outline: 2px solid;
+    gap: 20px;
+}
+
+.recipe-header > h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 30px;
+    color: var(--base-font-color)
+}
+
+.recipe-header > hr {
+    width: 85%;
+    border-width: 2.5px;
+}
+
+
+/* Main Content */
+
+.recipe-documentation {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 50px;
+}
+
+.recipe-documentation > p {
+    text-align: justify;
+    font-family: arial;
+    color: var(--base-bg-color2);
+    margin: 0 100px;
+}
+
+/* Lists */
+
+.lists {
+    display: flex;
+    padding: 50px;
+}
+
+.lists h2 {
+    color: var(--base-bg-color2)
+}
+
+.recipe-ingredients, .recipe-steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 120px;
+    gap: 30px;
+}
+
+.lists  ul, ol {
+    font-family: arial;
+    align-self: flex-start;
+    color: var(--base-bg-color2)
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+footer > a {
+    font-weight: bold;
+    font-size: 15px;
+    background-color: var(--base-bg-color2);
+    color: #000000;
+    border-radius: 10px;
+    padding: 20px;
+}
