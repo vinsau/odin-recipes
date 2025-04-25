@@ -29,7 +29,6 @@ img {
 
 body {
     background-color: var(--base-bg-color1);
-    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     font-family: "Special Gothic Expanded One", sans-serif;
@@ -84,6 +83,7 @@ a:hover {
     font-family: arial;
     color: var(--base-bg-color2);
     margin: 0 100px;
+    text-indent: 50px;
 }
 
 /* Lists */
