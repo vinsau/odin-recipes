@@ -22,13 +22,13 @@ html, body {
 
 img {
     height: auto;
-    width: auto;
+    width: 50%;
     margin: 0 auto;
     border: 2px solid var(--base-bg-color2)
 }
 
 body {
-    background-color: var(--base-bg-color1  );
+    background-color: var(--base-bg-color1);
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
@@ -90,7 +90,9 @@ a:hover {
 
 .lists {
     display: flex;
+    flex-direction: column;
     padding: 50px;
+    gap: 50px;
 }
 
 .lists h2 {

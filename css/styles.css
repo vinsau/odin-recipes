@@ -103,6 +103,34 @@ main {
     gap: 20px;
 }
 
+.about {
+    color: var(--base-font-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+    flex-wrap: wrap;
+    margin: 50px 50px 100px 50px;
+    border: 3px solid var(--base-bg-color3);
+    min-width: 300px;
+
+}
+
+.about > h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about > p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin: 0 120px;
+    text-indent: 50px;
+    text-align: justify;
+}
+
 .recipes-header {
     color: var(--base-font-color);
     display: flex;
@@ -111,7 +139,7 @@ main {
     gap: 10px;
 }
 
-.recipes-header > hr {
+hr {
     width: 85%;
     border-width: 2.5px;
 }
