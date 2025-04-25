@@ -30,12 +30,12 @@ html {
 img {
     height: 200px;
     width: 200px;
-    margin: 0 auto;
+    margin: 15px auto;
     border: 2px solid var(--base-bg-color2)
 }
 
 body {
-    background-color: var(--base-bg-color1);
+    background-color: rgb(31, 41, 55);
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -53,6 +53,12 @@ a:hover {
 
 ul, ol {
     list-style-type: none;
+}
+
+hr {
+    width: 85%;
+    border-width: 2.5px;
+    align-self: center;
 }
 
 /* Header */
@@ -118,25 +124,31 @@ main {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 50px;
+    padding: 3rem;
     flex-wrap: wrap;
-    margin: 10% 50px 100px 50px;
+    margin: 15% 10% 100px 10%;
     border: 3px solid var(--base-bg-color3);
     min-width: 300px;
 
 }
 
 .about > h2 {
-    font-size: 40px;
+    font-size: 1.50rem;
     font-weight: bold;
 }
 
 .about > p {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
-    margin: 0 120px;
+    font-size: 1.25rem;
+    margin: 0 20px;
     text-indent: 50px;
     text-align: justify;
+}
+
+.recipe-container {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    background-color: var(--base-bg-color1);
 }
 
 .recipes-header {
@@ -144,28 +156,23 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-}
-
-hr {
-    width: 85%;
-    border-width: 2.5px;
+    font-size: 1.25rem;
 }
 
 .recipe-items {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-    color: var(--base-bg-color2)
+    gap: 50px;
+    padding: 1.5rem 8rem;
+    color: var(--base-font-color);
 }
 
 .card {
     display: flex;
     flex-direction: column;
     text-align: center;
-    border: 2px solid var(--base-bg-color2);
+    border: 3px solid var(--base-bg-color2);
     padding: 15px;
     gap: 10px;
     flex: 1;
@@ -180,13 +187,15 @@ hr {
 
 .card > .visit-btn {
     margin-top: auto;
-    padding: 10px;
-    font-weight: bold;
+    padding: 1rem;
+    font-weight: 900;
     font-size: 15px;
     background-color: var(--base-bg-color2);
     color: #000000;
     align-self: center;
     border-radius: 10px;
+    border: 1.5px solid black;
+    background-color: orange;
 }
 
 
